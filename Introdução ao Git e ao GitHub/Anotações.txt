@@ -1,0 +1,39 @@
+Comandos básicos utilizados no Git:
+
+Criar novo repositório: git init 
+
+Verificar estado dos arquivos/diretórios: git status
+
+Adicionar arquivos/diretório: 
+
+- Em um arquivo especifico: git add meu_arquivo.txt
+- Em um diretório específico: git add meu_diretorio
+
+Adicionar todos os arquivos /diretórios:git add .
+
+Comitar arquivo/ diretório
+
+1 arquivo: git commit meu_arquivo.txt
+
+Vários arquivos
+
+git commit meu_arquivo.txt meu_outro_arquivo.txt
+
+Remover arquivo: git rm meu_arquivo.txt
+Remover diretório: git rm -r diretorio
+
+Enviar arquivos/diretórios para o repositório remoto: git push -u origin master
+Os demais pushes não precisam dessa informação, apenas git push
+
+Atualizar repositório local de acordo com o repositório remoto: git pull
+
+Clonar repositório já existente: git clone seguido do link
+
+PARA MAIS COMANDOS, SÓ CLICAR NO LINK ABAIXO:
+
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
+
+
+
+
